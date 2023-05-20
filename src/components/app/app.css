@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap");
+
+
+#root {
+  color: #fff;
+  width: 50%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: rgb(79, 14, 132);
+}
+.content {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.message {
+  text-align: center;
+  align-items: center;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.4;
+  color: rgb(237, 138, 0);
+}
+
+.table {
+  width: 90%;
+  margin-left: 6%;
+}
+.form-group {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.start {
+  margin-top: 40px;
+  border-radius: 30px;
+  border: none;
+  width: 230px;
+  height: 60px;
+  background-color: rgb(237, 162, 0);
+  font-family: "Mulish", sans-serif;
+  color: black;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.new-product {
+  margin-top: 40px;
+  padding: 0 10px 0 20px;
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control {
+  width: 240px;
+  border: none;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-family: "Mulish", sans-serif;
+  background-color: rgb(238, 232, 232);
+}
+
+tr {
+  width: 90%;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+}
+
+td {
+  align-items: center;
+}
+.num {
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.text-remove {
+  padding-top: 10xp;
+  font-size: 20px;
+}
+
+.done .text-content::placeholder,
+.done-1 .text-content {
+  text-decoration: line-through;
+  font-family: "Mulish", sans-serif;
+}
+
+.text-content {
+  text-transform: capitalize;
+}
+
+.text-content {
+  width: 64%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: rgb(79, 14, 132);
+  color: #fff;
+  font-family: "Mulish", sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+}
+.text-content::placeholder {
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "Mulish", sans-serif;
+}
+
+.btn-clear {
+  width: 140px;
+  margin-top: 40px;
+  background-color: crimson;
+  color: #fff;
+}
